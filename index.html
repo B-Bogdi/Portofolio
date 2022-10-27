@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Papara Bogdan" />
+    <meta name="description" content="Portofolio for Papara Bogdan" />
+    <title>Papara Bogdan</title>
+    <link rel="icon" href="/images/Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <img class="logo" src="/images/Logo.png" alt="Logo" />
+        <nav>
+          <ul>
+            <li><a href="#first-page">Home</a></li>
+            <li><a href="#projects">Proiecte</a></li>
+            <li><a href="#contact">Contactează-mă</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="first-page">
+        <div class="texts">
+          <h1 class="first-text">Salut,eu sunt Bogdan...</h1>
+          <p class="second-text">...și sunt un FrontEnd Developer</p>
+        </div>
+      </section>
+      <hr />
+      <section id="projects">
+        <section class="to-do-project">
+          <a href="https://b-invisible.github.io/To-do-app/" target="_blank">
+            <h2 class="To-do-header">To-do-app</h2>
+          </a>
+          <div class="to-do-content">
+            <a href="https://b-invisible.github.io/To-do-app/" target="_blank">
+              <img
+                class="to-do-photo"
+                src="/images/To-do-photo.png "
+                alt="Imagine cu 'To-do-app'"
+              />
+            </a>
+            <div class="to-to-textcotent">
+              <p class="to-do-paragrapf">
+                Această aplicație Web este destinată pentru organizarea
+                sarcinilor dvs.
+              </p>
+              <div class="to-do-links">
+                <button class="to-do-linkbtn">
+                  <a
+                    target="_blank"
+                    class="to-do-link"
+                    href="https://b-invisible.github.io/To-do-app/"
+                    >To-do-app</a
+                  >
+                </button>
+                <button class="to-do-linkbtn">
+                  <a
+                    class="to-do-linkgithub"
+                    target="_blank"
+                    href="https://github.com/B-Invisible/To-do-app"
+                    >To-do-app(GitHub)</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <hr />
+      <section id="contact">
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Contacteaza-ma</legend>
+            <p>
+              <label for="Name">Name:</label>
+              <input
+                type="text"
+                name="Name"
+                id="Name"
+                placeholder="Jane"
+                autocomplete="on"
+                required
+              />
+            </p>
+            <p>
+              <label for="Email">Email:</label>
+              <input
+                type="email"
+                name="Email"
+                id="Email"
+                placeholder="example@gmail.com"
+                autocomplete="on"
+                required
+              />
+            </p>
+            <p>
+              <label for="message">Your Mesage:</label>
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                style="resize: none"
+                rows="5"
+                placeholder="Type your message"
+              ></textarea>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
